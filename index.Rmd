@@ -1,12 +1,9 @@
 ```{r}
-library(gdata)  
-mydata = read.csv("wa_data.csv")
-mydata
+link='https://github.com/andernd/Team_Assignment_3/raw/master/wa_data.RData'
+load(file=url(link))
 
 ```
 
-```{r}
-save(mydata, file = "wa_data.RData")
-```
-```
+
+
 
